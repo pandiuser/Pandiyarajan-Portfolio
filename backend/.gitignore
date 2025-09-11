@@ -20,3 +20,12 @@ venv/
 
 *.env
 .env.local
+
+# Ignore parent venv
+../venv/
+
+# Ignore parent requirements if not needed
+../requirements.txt
+
+# Ignore parent .gitignore if wrongly detected
+../.gitignore
