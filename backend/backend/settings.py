@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ------------------------------------------------------------------------------
 SECRET_KEY = "8I7CH6KRXlw2tw1Q82JNf_YwPavNSSsLveSAaUvfMR0btVnTEDr-L3aFr0XTVCwoMQI"
 DEBUG = True
-ALLOWED_HOSTS = ["*","https://pandiyarajan-portfolio.onrender.com"]
+ALLOWED_HOSTS = ["*","https://pandiyarajan-portfolio.onrender.com",'0.0.0.0']
 
 
 # ------------------------------------------------------------------------------
